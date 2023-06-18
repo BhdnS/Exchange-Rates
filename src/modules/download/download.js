@@ -1,6 +1,6 @@
 import pdfMake from 'pdfmake/build/pdfmake';
 import pdfFonts from 'pdfmake/build/vfs_fonts';
-import generatePDF from './generatePDF';
+import { click, download } from './utils'
 
 pdfMake.vfs = pdfFonts.pdfMake.vfs;
 
@@ -10,21 +10,9 @@ class Download {
     this.url = options.url;
   }
 
-  async download() {
-    try {
-      const response = await fetch(this.url);
-      const data = await response.json();
-      generatePDF(data);
-    } catch (error) {
-      console.log(error);
-    }
-  }
+  downloadFile() { download(this.url) }
 
-  click() {
-    this.btn.addEventListener('click', () => {
-      this.download();
-    });
-  }
+  clickBtn() { click(this.btn, this.downloadFile.bind(this) )}
 }
 
 export default Download;

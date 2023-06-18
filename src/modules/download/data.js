@@ -5,4 +5,4 @@ const downloadBtn = new Download({
   url: 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json',
 });
 
-downloadBtn.click();
+downloadBtn.clickBtn();
