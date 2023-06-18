@@ -9,9 +9,13 @@ class Rates {
     this.thead = options.thead;
   }
 
-  response() { responseUrl(this.url, this.title, this.tbody) }
+  response() { 
+    responseUrl(this.url, this.title, this.tbody) 
+  }
 
-  click() { clickButtonView(this.btn, this.response.bind(this), this.thead) }
+  click() { 
+    clickButtonView(this.btn, this.response.bind(this), this.thead)
+  }
 }
 
 export default Rates;

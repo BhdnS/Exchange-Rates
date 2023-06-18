@@ -10,9 +10,13 @@ class Download {
     this.url = options.url;
   }
 
-  downloadFile() { download(this.url) }
+  downloadFile() { 
+    download(this.url) 
+  }
 
-  clickBtn() { click(this.btn, this.downloadFile.bind(this) )}
+  clickBtn() { 
+    click(this.btn, this.downloadFile.bind(this) )
+  }
 }
 
 export default Download;
