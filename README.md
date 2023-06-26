@@ -1,1 +1,1 @@
-https://bhdns.github.io/Exchange-Rates/dist/index.html
+https://bhdns.github.io/exchange-rates/dist/index.html
