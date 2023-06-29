@@ -10,7 +10,7 @@ class Theme {
     this.body = options.body;
     this.btnView = options.btnView;
   }
-	click() {
+  click() {
     clickTheme(this.img, this.title, this.btnDownload, this.btnView, this.table, this.body);
   }
 
