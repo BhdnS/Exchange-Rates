@@ -44,11 +44,11 @@
 }
 
 .theme {
-	position: fixed;
+	position: absolute;
 	max-width: 30px;
 	max-height: 30px;
-	right: 20px;
-	top: 20px;
+	right: 10px;
+	top: 10px;
 }
 
 .white {
@@ -65,4 +65,14 @@
 
 .theme {
 	cursor: pointer;
+}
+
+.container {
+	margin: 0 30px;
+}
+
+table, td, th {
+	border-collapse: collapse;
+	padding: 5px 2px;
+	border: 1px solid black;
 }
