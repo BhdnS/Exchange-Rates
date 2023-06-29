@@ -1,4 +1,4 @@
-import { clickButtonView, responseUrl } from './utils';
+import { clickButtonView, responseUrl } from './utils'
 
 class Rates {
   constructor(options) {

@@ -1,5 +1,5 @@
-import clickTheme  from './clickThemeUtils';
-import loadThemeFromLocalStorage from './loadThemeFromLocalStorage';
+import clickTheme from './clickThemeUtils'
+import loadThemeFromLocalStorage from './loadThemeFromLocalStorage'
 
 class Theme {
   constructor(options) {
