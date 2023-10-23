@@ -1,0 +1,134 @@
+@media screen and (max-width: 500px) {
+	
+	.header {
+		padding: 20px 0px 10px 0px;
+		&__container {
+			margin: auto 0px;
+		}
+		&__title {
+			font-size: 2rem;
+			text-align: center;
+		}
+	}
+
+	.main {
+		&__container {
+			margin: auto 0px;
+		}
+		&__thead {
+			font-size: 2rem;
+		}
+		&__tbody {
+			font-size: 1.5rem;
+		}
+	}
+
+	.btn {
+		min-width: 180px;
+		font-size: 1.5rem;
+		margin: 5px 0px 5px 0px;
+	}
+	
+}
+
+
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+
+	.header {
+		padding: 20px 0px 10px 0px;
+		&__container {
+			margin: auto 0px;
+		}
+		&__title {
+			font-size: 2.5rem;
+			text-align: center;
+		}
+	}
+
+	.main {
+		&__container {
+			margin: auto 0px;
+		}
+		&__thead {
+			font-size: 2.5rem;
+		}
+		&__tbody {
+			font-size: 2rem;
+		}
+	}
+
+	.btn {
+		min-width: 200px;
+		font-size: 1.8rem;
+		margin: 10px 0px 10px 0px;
+	}
+
+}
+
+
+@media screen and (min-width: 1001px) and (max-width: 1700px) {
+
+	.header {
+		padding: 20px 0px 10px 0px;
+		&__container {
+			margin: auto 0px;
+		}
+		&__title {
+			font-size: 5rem;
+			text-align: center;
+		}
+	}
+
+	.main {
+		&__container {
+			margin: auto 0px;
+		}
+		&__thead {
+			font-size: 4rem;
+		}
+		&__tbody {
+			font-size: 3rem;
+		}
+	}
+
+	.btn {
+		min-width: 320px;
+		font-size: 3rem;
+		margin: 15px 0px 15px 0px;
+	}
+
+}
+
+
+@media screen and (min-width: 1701px) { 
+
+	.header {
+		padding: 20px 0px 10px 0px;
+		&__container {
+			margin: auto 0px;
+		}
+		&__title {
+			font-size: 6rem;
+			text-align: center;
+		}
+	}
+
+	.main {
+		&__container {
+			margin: auto 0px;
+		}
+		&__thead {
+			font-size: 5rem;
+		}
+		&__tbody {
+			font-size: 4rem;
+		}
+	}
+
+	.btn {
+		min-width: 440px;
+		font-size: 4rem;
+		margin: 15px 0px 15px 0px;
+	}
+
+}
